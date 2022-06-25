@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;    
+}
+.slide{
+    width: 85%;
+    height: 76vh;
+    margin: auto;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    margin: auto;
+
+}
+.navbar .boom{
+    transform: translateX(-110px);
+}
+.navbar img{
+    transform: translateX(110px)translateY(-8px);
+}
+.boom{
+    display: flex;
+    list-style: none;
+    transform: translateY(5px) translateX(90px);
+    
+}
+.boom_item{
+    font-size: 11px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.bir:hover{
+    width: 42px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ikki:hover{
+    width: 72px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+
+}
+.uch:hover{
+    width: 72px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+
+}
+.tort:hover{
+    width: 72px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+
+}
+.besh:hover{
+    width: 56px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.olti:hover{
+    width: 46px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.yetti:hover{
+    width: 66px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.sakkiz:hover{
+    width: 140px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.ite{
+    margin-left: 40px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.toqqiz:hover{
+    width: 42px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.on:hover{
+    width: 52px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.onbir:hover{
+    width: 80px;
+    height: 16px;
+    background-color: black;
+    color: #fff ;
+    padding-left: 3px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.item{
+    font-size: 11px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.boom i{
+    margin-left: 20px;
+}
+
+
+
+
+
+.harf{
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.boshqa{
+    width: 100%;
+    height: 70px;
+}
+.nana{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.nana li{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.imm::before{
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #0a0a0a;
+    transform: translateX(330px) translateY(65px);
+}
+.rasml{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+}
+.moon{
+    width: 45%;
+    height: 100%;
+    background: #f7f5f5;
+    margin-left: 20px;
+    border-radius: 20px 20px 0 0;
+}
+.moon img{
+    width: 100%;
+    height: 85%; 
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.moon h5{
+    margin-left: 120px;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+.gr{
+    margin-left: 220px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.moon p{
+    font-size: 10px;
+    margin-left: 200px;
+    margin-top: -5px;
+    color: gray;
+}
+.noom{
+    width: 50%;
+    height: 100%;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.noom img:hover{
+    cursor: pointer;
+}
+.moon img:hover{
+    cursor: pointer;
+}
+.rasm1{
+    width: 45%;
+    height: 50%;
+    margin-left: 20px;
+    background: #f7f5f5;
+    border-radius: 20px;
+
+}
+.rasm1 img{
+    width: 160px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: -0px;
+    object-fit: cover;
+}
+.rasm1 h6{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.rasm1 h6:hover{
+    cursor: pointer;
+}
+.rasm1 h5:hover{
+    cursor: pointer;
+}
+.rasm1 p:hover{
+    cursor: pointer;
+}
+.rasm1 h5{
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 64px;
+    margin-top: 15px;
+    color: blue;
+}
+.rasm1 p{
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: gray;
+}
+.bi{
+    margin-left: 20px;
+}
+.bi p{
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 90px;
+    color: gray;
+}
+.bi h5{
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 84px;
+    margin-top: 15px;
+    color: blue;
+}
+.bi h6{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: -18px;
+}
+.rang{
+    margin-top: 10px;
+    height: 218px;
+}
+.rang h6{
+    margin-left: 40px;
+}
+.rang h5{
+    margin-left: 90px;
+}
+.rang p{
+    margin-left: 40px;
+}
+.ran{
+    margin-top: 0px;
+    height: 218px;
+    transform: translateY(10px);
+}
+.ran img{
+    width: 170px;
+    height: 170px;
+}
+.ran h6{
+    margin-left: 85px;
+    margin-top: -20px;
+}
+.ran p{
+    margin-left: 95px;
+    margin-top: 15px;
+}
+.kamera{
+    width: 88%;
+    height: 90vh;
+    margin-top: 20px;
+    background-color: #f7f5f5;
+    margin: auto;
+}
+.kerak{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.uchta{
+    display: flex;
+    margin-left: 320px;
+    font-size: 12px;
+    font-weight: 600;
+    list-style: none;
+
+}
+.uchta li{
+    margin-left: 40px;
+}
+.uchta_item::before{
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: #0a0a0a;
+    transform: translateY(613px)translateX(472px);
+}
+.kamera img{
+    width: 470px;
+    height: 320px;
+    margin-left: 340px;
+    border-radius: 30px;
+}
+.kamera h1{
+    margin-left: 270px;
+    margin-top: 20px;
+    color: black;
+}
+.kamera p{
+    margin-left: 300px;
+    color: black;
+    font-size: 15px;
+}
+.kamera button{
+    width: 70px;
+    height: 20px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 530px;
+}
+.explore{
+    width: 88%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+.tanho{
+    color: black;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.image{
+    width: 50%;
+    height: 100%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.word{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+}
+.chiziq{
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 50px;
+}
+.word p{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.word h5{
+    transform: translateX(30px)translateY(-40px);
+    font-size: 18px;
+}
+.word .sub{
+    font-size: 11px;
+    transform: translateY(-30px);
+    margin-left: 50px;
+}
+.sub::before{
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 70px;
+    height: 3px;
+    background: #0a0a0a;
+    transform: translateY(5px)translateX(-3px);
+    border-radius: 5px;
+}
+.word hr{
+    width: 880px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+.footer{
+    width: 88%;
+    height: 10vh;
+    background: #f7f5f5;
+    margin: auto;
+
+}
+.footer h5{
+    margin-left: 200px;
+}
+.footer p{
+    margin-left: 450px;
+    margin-top: -31px;
+}
+.zero{
+    margin-left: 800px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: -38px;
+}
+.zero::before{
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: #0a0a0a;
+    transform: translateY(1800px) translateX(882px);
+    border-radius: 5px;
+}
+.word hr{
+    width: 500px;
+}
+.any{
+    width: 500px;
+    margin-left: 20px;
+    margin-top: -140px;
+    transform: rotate(90deg);
+}
+.footer2{
+    width: 88%;
+    height: 91vh;
+    background-color: #f7f5f5;
+    margin: auto;
+    display: flex;
+}
+.footer2 li{
+    list-style: none;
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+.va{
+    margin-left: -800px;
+    transform: translateY(20px);
+}
+.bas{
+    margin-top: 60px;
+    margin-left: -810px;
+    width: 1186px;
+}
+.gey{
+    margin-top: 38px;
+}
+.mo{
+    margin-top: -25px;
+}
+.mm{
+    margin-left: -250px;
+}
+.nn{
+    margin-left: -250px;
+}
+.footer2 h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+.va{
+    font-size: 12px;
+}
+.bb{
+    margin-left: -250px;
+}
+.tugadi{
+    width: 88%;
+    height: 19vh;
+    background-color: #f7f5f5;
+    margin: auto;
+
+}
+.tugadi h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+.tugadi ul{
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 50px 10px;
+    justify-content: space-between;
+}
+.stay{
+    margin-left: 100px;
+}
+li i{
+    font-size: 20px;
+}
+.fa-facebook:hover{
+    color: blue;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: #ff5e00;
+    cursor: pointer;
+}
+.fa-youtube:hover{
+    color: red;
+    cursor: pointer;
+}
